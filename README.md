@@ -1,73 +1,93 @@
-# Welcome to your Lovable project
+# ❤️ HeartBeat – Detection of Chronic Heart Failure using Machine Learning
 
-## Project info
+## 📌 Project Overview
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Chronic Heart Failure (CHF) is a serious cardiovascular disease that requires early detection for effective treatment.
+This project presents a **Machine Learning based system** that detects Chronic Heart Failure using **heart sound recordings (Phonocardiogram – PCG signals)**.
 
-## How can I edit this code?
+The system analyzes heart sound signals, extracts important features, and predicts whether the patient shows signs of **CHF or Normal heart condition**.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🎯 Objectives
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* To detect **Chronic Heart Failure (CHF)** using heart sound signals.
+* To analyze **PCG signals** using Machine Learning techniques.
+* To visualize heart signals using **waveforms and spectrograms**.
+* To generate a **medical report with prediction results and graphs**.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🧠 Technologies Used
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* Python
+* Machine Learning
+* Flask (for Web Application)
+* Librosa (Audio Processing)
+* Scikit-learn
+* NumPy
+* Matplotlib
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## ⚙️ System Workflow
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. User uploads a **heartbeat sound file**.
+2. The system preprocesses the signal.
+3. Features are extracted from the heart sound.
+4. The trained **Machine Learning model** analyzes the features.
+5. The system predicts whether the condition is **CHF or Normal**.
+6. Graphs and results are displayed and a **downloadable medical report** is generated.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📊 Features
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+* Heartbeat signal visualization
+* Spectrogram generation
+* Machine learning prediction
+* Accuracy, sensitivity, and specificity evaluation
+* Downloadable medical report
+* User-friendly web interface
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📁 Project Structure
 
-**Use GitHub Codespaces**
+project/
+│
+├── app.py
+├── train_model.py
+├── model.pkl
+├── templates/
+├── static/
+├── dataset/
+└── README.md
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📈 Evaluation Metrics
 
-This project is built with:
+The model performance is evaluated using:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* Accuracy
+* Sensitivity
+* Specificity
+* Confusion Matrix
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🚀 Future Improvements
 
-## Can I connect a custom domain to my Lovable project?
+* Integration with real-time digital stethoscope data
+* Deep Learning based heart sound classification
+* Mobile application for remote monitoring
+* Improved dataset for higher accuracy
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 👩‍💻 Author
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Suvi
+
+Machine Learning Project – Chronic Heart Failure Detection
