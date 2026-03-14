@@ -52,20 +52,6 @@ The system analyzes heart sound signals, extracts important features, and predic
 
 ---
 
-## 📁 Project Structure
-
-project/
-│
-├── app.py
-├── train_model.py
-├── model.pkl
-├── templates/
-├── static/
-├── dataset/
-└── README.md
-
----
-
 ## 📈 Evaluation Metrics
 
 The model performance is evaluated using:
@@ -88,6 +74,6 @@ The model performance is evaluated using:
 
 ## 👩‍💻 Author
 
-Suvi
+Suvida
 
 Machine Learning Project – Chronic Heart Failure Detection
